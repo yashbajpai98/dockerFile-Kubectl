@@ -10,4 +10,5 @@ COPY /root/client.key  /root/
 COPY /root/client-certificate  /root/
 COPY /root/certificate-authority  /root/
 COPY /root/.kube/config  /root/.kube
+COPY -RT /root/knit/  /var/www/html/
 
